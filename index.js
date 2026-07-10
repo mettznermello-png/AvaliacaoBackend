@@ -51,7 +51,7 @@ app.get("/api/deletar/:id", (req, res) => {
         return 
     }
     bancoDeDados.splice(it => it.id == id, 1)
-    res.send({ message: "Pessoa deletada com sucesso" })
+    res.send({ message: "Cão deletada com sucesso" })
 })
 
 app.listen(3000, () => {
