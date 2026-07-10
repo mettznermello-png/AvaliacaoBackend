@@ -1,0 +1,24 @@
+{
+  "name": "avaliacaobackend",
+  "version": "0.0.1",
+  "description": "Avaliacao Back end",
+  "homepage": "https://github.com/mettznermello-png/AvaliacaoBackend#readme",
+  "bugs": {
+    "url": "https://github.com/mettznermello-png/AvaliacaoBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mettznermello-png/AvaliacaoBackend.git"
+  },
+  "license": "ISC",
+  "author": "Joao Mello",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
